@@ -69,7 +69,8 @@ header.top_header nav .navbar-collapse ul li:active {
 }
 
 header.top_header nav .navbar-collapse ul li a {
-    color: palegoldenrod;
+    color: black;
+    font-weight: 600;
     transition: all 0.7s ease-in-out;
 }
 
@@ -81,12 +82,12 @@ header.top_header nav .navbar-collapse ul li a:hover {
 }
 
 header.top_header .title-header h4 {
-    color: blanchedalmond;
+    color: black;
     margin: 50px 0;
 }
 
 header.top_header .text-marks p {
-    color: white;
+    color: black;
     margin-bottom: 20px;
     font-size: 18px;
 }
@@ -211,3 +212,52 @@ footer.down-footer .custom-footer {
 
 
 /* Responsive page */
+
+@media (min-width: 300px) and (max-width: 575.98px) {
+    header.top_header .image-shopping img {
+        height: 250px;
+    }
+
+    .hidden-on-mobile {
+        display: none;
+    }
+
+    section.about-product .product-img img {
+        height: 250px;
+    }
+
+    section.features-product .features-product-more .icon-explain img {
+        height: 85px;
+    }
+
+    section.contact-me-whatsapp .title-section-contact h4 {
+        font-size: 18px;
+    }
+
+    footer.down-footer .custom-footer {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*Good responsive  */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header.top_header .image-shopping img {
+        height: 320px;
+    }
+
+    section.about-product .product-img img {
+        height: 300px;
+        margin: 50px 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Good responsive */
+}
+
+@media (min-width: 1200px) {
+    /* Good responsive */
+}
